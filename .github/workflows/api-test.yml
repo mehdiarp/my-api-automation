@@ -24,6 +24,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: newman-reports # اسم artifact را کمی تغییر می‌دهیم تا مشخص باشد شامل چند گزارش است
-          path: | # اینجا هر دو فایل گزارش را مشخص می‌کنیم
+          path: | # .اینجا هر دو فایل گزارش را مشخص می‌کنیم
             results.xml
             report.html
